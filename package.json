@@ -1,0 +1,35 @@
+{
+  "name": "marckux-rest-server",
+  "version": "1.0.0",
+  "description": "A NODE EXPRESS rest server",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marckux/marckux-rest-server.git"
+  },
+  "keywords": [
+    "Javascript",
+    "node",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Marckux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marckux/marckux-rest-server/issues"
+  },
+  "homepage": "https://github.com/Marckux/marckux-rest-server#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
